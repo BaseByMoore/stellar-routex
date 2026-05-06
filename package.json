@@ -1,0 +1,35 @@
+{
+  "name": "stellar-routex",
+  "version": "1.0.0",
+  "description": "Stellar RouteX is a multi-currency payment routing engine built on Stellar. It enables seamless cross-border transfers by automatically converting assets via path payments, allowing users and businesses to send and receive funds in their preferred currencies with low fees and near-instant settlement.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BaseByMoore/stellar-routex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/BaseByMoore/stellar-routex/issues"
+  },
+  "homepage": "https://github.com/BaseByMoore/stellar-routex#readme",
+  "dependencies": {
+    "@stellar/stellar-sdk": "^15.1.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.6.0",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
